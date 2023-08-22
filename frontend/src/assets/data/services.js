@@ -35,4 +35,10 @@ export const services = [
     bgColor: "rgba(151, 113, 255, .2)",
     textColor: "#9771FF",
   },
+  // {
+  //   name: "Burn Treatment 2 ",
+  //   desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic 2.",
+  //   bgColor: "rgba(151, 113, 255, .2)",
+  //   textColor: "#9771FF",
+  // },
 ];
