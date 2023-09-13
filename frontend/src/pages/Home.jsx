@@ -16,9 +16,16 @@ import ServiceList from "../components/Services/ServiceList";
 import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/Faq/FaqList";
 import Testimonial from "../components/Testimonial/Testimonial";
+// import Login from "./Login";
 const Home = () => {
   return (
     <>
+      {/* <section>
+        <div className="container">
+          <Login /> 
+        </div>
+      </section> */}
+      {/* <title>Web App Appointment</title> */}
       <section className="hero__section pt-[60px] 2xl:h-[800px]">
         <div className="container">
           <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
@@ -253,13 +260,15 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="text-center text-[40px] heading">What our patient say ?</h2>
+            <h2 className="text-center text-[40px] heading">
+              What our patient say ?
+            </h2>
             <p className="text__para text-center">
               World-class care for everyone. Our health System offers unmatched
               expert health care
             </p>
           </div>
-          <Testimonial/>
+          <Testimonial />
         </div>
       </section>
     </>
